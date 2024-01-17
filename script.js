@@ -28,6 +28,7 @@ buttonCheck.addEventListener('click', function() {
 
             if (score <= 0) {
                 doGameLol = false;
+                hotORcool.textContent = 'Вы проиграли!';
             } else {
                 scoreNum.textContent = score - 1;
             }
@@ -37,6 +38,7 @@ buttonCheck.addEventListener('click', function() {
 
             if (score <= 0) {
                 doGameLol = false;
+                hotORcool.textContent = 'Вы проиграли!';
             } else {
                 scoreNum.textContent = score - 1;
             }
