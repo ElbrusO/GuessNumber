@@ -140,3 +140,13 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media (max-width: 500px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .left {
+    margin-top: 80px;
+  }
+}
